@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="get" action="">
+        <label>a:</label> <input type="text"  id="v1">
+        <br>
+        <label >b:</label> <input type="text" id="v2">
+        <br>
+        <button onclick="add()">add</button>
+    </form>
+    <br>
+    <label >result:</label> <input type="text" id ="result">
+    <script>
+        let a = parseInt(document.getElementById("v1").value);
+        let b = parseInt(document.getElementById("v2").value);
+
+function add()
+{
+    document.getElementById("result").value= (a+b)
+}
+add()
+    </script>
+</body>
+</html>
