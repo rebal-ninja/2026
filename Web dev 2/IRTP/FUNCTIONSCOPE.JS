@@ -18,3 +18,4 @@ function myfunction(){
 }
 myfunction()
 
+console.log("this is outside the function",x,b)
