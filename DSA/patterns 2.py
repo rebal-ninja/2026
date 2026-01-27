@@ -1,11 +1,22 @@
-n = int(input("enter the vlaue of n "))
+# n = int(input("enter the vlaue of n "))
 
-for i in range (n):
-    # controls the rows 
-    for j in range(i+1):
-        # controls the cols 
-        print("*",end="")
-        # prints the start 
-    print()
-    # jumps to next line after one loop in row is done
+# for i in range (n):
+#     # controls the rows 
+#     for j in range(i+1):
+#         # controls the cols 
+#         print("*",end="")
+#         # prints the start 
+#     print()
+#     # jumps to next line after one loop in row is done
     
+
+class pattern:
+    def pattern(self,n):
+        for i in range(n):
+            for j in range(i+1):
+                print("*",end=" ")
+            print()
+
+sol = pattern()
+n= 5
+sol.pattern(n)
