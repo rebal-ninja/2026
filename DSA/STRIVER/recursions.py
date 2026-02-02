@@ -69,10 +69,10 @@
 
 # PRINT n TO 1 USING BACKTRACKING
 
-def bac(n):
-    if n==0:
-        return
-    print(n)
-    bac(n-1)
+# def bac(n):
+#     if n==0:
+#         return
+#     print(n)
+#     bac(n-1)
 
-bac(5)
+# bac(5) 

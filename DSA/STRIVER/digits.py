@@ -107,24 +107,24 @@
 
 # GCD USING ECULIDIAN 
 
-a= int(input("enter a "))
-b= int(input("enter b "))
+# a= int(input("enter a "))
+# b= int(input("enter b "))
 
 
-while a>0 and b>0 :
-    if a>b:
-        a= a%b
+# while a>0 and b>0 :
+#     if a>b:
+#         a= a%b
     
-    else:
-        b = b%a
+#     else:
+#         b = b%a
 
-        if a ==0:
-            print(b)
-        else:
-            print(a)
+#         if a ==0:
+#             print(b)
+#         else:
+#             print(a)
 
 
-print("is gcd  ")
+# print("is gcd  ")
 
 #<<<<<<<<<<< EVERYTHING USING CLASSES >>>>>>>>>>>>>
 
@@ -144,17 +144,17 @@ print("is gcd  ")
 
 # RETURN THE REVERSE OF GIVEN NUMBER
 
-# class digits:
-#     def reverse_number(self,n):
-#         reverse =0
-#         while n>0:
-#             last_digit = n%10
-#             reverse= (reverse*10)+last_digit
-#             n//=10
-#         print(reverse)
+class digits:
+    def reverse_number(self,n):
+        reverse =0
+        while n>0:
+            last_digit = n%10
+            reverse= (reverse*10)+last_digit
+            n//=10
+        print(reverse)
 
-# obj = digits()
-# obj.reverse_number(12345)
+obj = digits()
+obj.reverse_number(12345)
 
 
 # CHECK IF THE NUMBER IS A PALINDROME
