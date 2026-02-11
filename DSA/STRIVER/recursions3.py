@@ -1,21 +1,21 @@
-# # # REVERSE AN ARRAY 
+# # REVERSE AN ARRAY 
 
-# # arr = [1,2,3,4,5]
+# arr = [1,2,3,4,5]
 
-# # def reverse_array(arr,left,right):
+# def reverse_array(arr,left,right):
 
-# #     if left>=right:
-# #         return
+#     if left>=right:
+#         return
     
 
-# #     arr[left],arr[right] = arr[right],arr[left]
+#     arr[left],arr[right] = arr[right],arr[left]
 
-# #     reverse_array(arr,left+1,right-1)
+#     reverse_array(arr,left+1,right-1)
 
-# # reverse_array(arr,0,len(arr)-1)
+# reverse_array(arr,0,len(arr)-1)
 
 
-# # print(arr)
+# print(arr)
 
 
 
@@ -76,16 +76,16 @@
 
 # SAME FIBONACI WITH RECURSIONS
 
-def fibonacci(n):
-    if n<=1:
-        return n
+# def fibonacci(n):
+#     if n<=1:
+#         return n
     
-    last = fibonacci(n-1)
-    second_last = fibonacci(n-2)
+#     last = fibonacci(n-1)
+#     second_last = fibonacci(n-2)
 
-    return(last+second_last)
+#     return(last+second_last)
 
-print(fibonacci(7))
+# print(fibonacci(7))
 
 
 
