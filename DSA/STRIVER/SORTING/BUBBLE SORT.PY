@@ -160,3 +160,18 @@ print(arr)
 # # - i shrinks the problem
 # # - j fixes local disorder
 # # - did_swap saves time
+
+
+def bubble_sort_recursive(arr, n):
+
+    # base case
+    if n == 1:
+        return
+
+    # one pass (same inner logic as iterative version)
+    for j in range(n - 1):
+        if arr[j] > arr[j + 1]:
+            arr[j], arr[j + 1] = arr[j + 1], arr[j]
+
+    # recursive call replaces outer loop
+    bubble_sort_recursive(arr, n - 1)
