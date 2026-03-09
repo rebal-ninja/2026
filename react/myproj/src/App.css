@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+body{
+  transition: ease ;
+  background-color: antiquewhite;
+  color: aliceblue;
+  font-family: Arial, sans-serif;
+  
+}
+h1{
+  text-align: center;
+  color: antiquewhite;
+  margin: 20;
+  padding: 20px;
+  transition: ease ;
+}

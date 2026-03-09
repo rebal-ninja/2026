@@ -15,10 +15,12 @@
 // export default App
 
 function App() {
-  return (
+  return (<div>
     <h1 className="text-4xl text-red-500">
       Tailwind working
     </h1>
+    <h2>NAMASTE</h2>
+    </div>
   )
 }
 
