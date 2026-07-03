@@ -14,5 +14,6 @@
     "express": "^5.2.1",
     "http": "^0.0.1-security",
     "readline-sync": "^1.4.10"
-  }
+  },
+  "devDependencies": {}
 }

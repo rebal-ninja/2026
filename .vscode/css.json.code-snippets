@@ -1,0 +1,17 @@
+{
+  "CSS Reset Boilerplate": {
+    "prefix": "!",
+    "body": [
+      "*{",
+      "  margin: 0;",
+      "  padding: 0;",
+      "  box-sizing: border-box;",
+      "}",
+      "",
+      "body{",
+      "  font-family: Arial, sans-serif;",
+      "}"
+    ],
+    "description": "Basic CSS reset"
+  }
+}

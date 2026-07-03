@@ -5,11 +5,13 @@ const app = express()
 // to use express 
 
 app.get("/",(req,res)=>{
-    res.send("send succesfully")
+    console.log(req.method);
+    console.log(req.url);
+    res.send("send succesfully");
 });
 
 app.listen(3000,()=>{
-    console.log("sever running at 3000")
+    console.log("sever running at 3000");
 });
 
 // listen makes sure that port runs in loocalhost 3000
